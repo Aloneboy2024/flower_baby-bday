@@ -1,5 +1,5 @@
 // Cursor following effect
-const cursor = document.querySelector('.cursor');
+const cursor = document.querySelector('.custom-cursor'); // FIXED
 document.addEventListener('mousemove', (e) => {
     cursor.style.left = e.clientX + 'px';
     cursor.style.top = e.clientY + 'px';
@@ -42,7 +42,6 @@ function createFloating() {
 
 // Initialize animations
 window.addEventListener('load', () => {
-    // Title animation
     gsap.to('h1', {
         opacity: 1,
         duration: 1,
@@ -50,7 +49,6 @@ window.addEventListener('load', () => {
         ease: "bounce.out"
     });
 
-    // Button animation
     gsap.to('.cta-button', {
         opacity: 1,
         duration: 1,
@@ -58,38 +56,27 @@ window.addEventListener('load', () => {
         ease: "back.out"
     });
 
-    // Start typing effect
     typeGreeting();
-
-    // Create floating elements periodically
     setInterval(createFloating, 1000);
 });
 
 // Hover effects
-       // Hover effects
-       document.querySelectorAll('.cta-button').forEach(button => {
-        button.addEventListener('mouseenter', () => {
-            gsap.to(button, {
-                scale: 1.1,
-                duration: 0.3
-            });
-        });
+document.querySelectorAll('.cta-button').forEach(button => {
+    button.addEventListener('mouseenter', () => {
+        gsap.to(button, { scale: 1.1, duration: 0.3 });
+    });
 
-        button.addEventListener('mouseleave', () => {
-            gsap.to(button, {
-                scale: 1,
-                duration: 0.3
-            });
-        });
+    button.addEventListener('mouseleave', () => {
+        gsap.to(button, { scale: 1, duration: 0.3 });
+    });
 
-        // Smooth page transition on click
-        button.addEventListener('click', () => {
-            gsap.to('body', {
-                opacity: 0,
-                duration: 1,
-                onComplete: () => {
-                    window.location.href = 'cause.html'; // Replace with the actual URL of the next page
-                }
-            });
+    button.addEventListener('click', () => {
+        gsap.to('body', {
+            opacity: 0,
+            duration: 1,
+            onComplete: () => {
+                window.location.href = 'cause.html';
+            }
         });
     });
+});
