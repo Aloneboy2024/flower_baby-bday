@@ -1,33 +1,29 @@
-# 🎂 Happy Birthday Mini Website 🎉  
+# 🎂 Happy Birthday Flower ♡ 🎉  
 
-A beautiful, interactive mini website I built to celebrate my girlfriend’s special day ❤️.  
-This project is made with **HTML, CSS, and JavaScript** and includes animations, surprises, and heartfelt wishes.  
+A beautiful, interactive mini website I built to celebrate **my girlfriend Flower’s special day** ❤️✨  
+This project is made with **HTML, CSS, and JavaScript** and includes smooth animations, surprises, and heartfelt wishes.
 
-✨ Anyone can use this project to create a unique online birthday greeting for their loved one!  
+💖 Anyone can use this project to create a **personalized online birthday surprise** for their loved one.
 
 ---
 
 ## 🚀 Live Demo  
-👉 [Click here to view the site](https://nikitayadav19.github.io/HappyBirthdayGF)  
+👉 **Click here to view the site:**  
+https://aloneboy2024.github.io/flower_baby-bday/
 
 ---
 
-
-## 🎁 Features   
-- 💌 Heartfelt birthday message with typewriter effect  
-- 🌟 Responsive design (works on phone & desktop)  
-- ✨ Easy to customize for anyone  
+## 🎁 Features  
+- 💌 Romantic birthday message with smooth animations  
+- 🎀 Interactive button to reveal surprises  
+- 📱 Fully responsive (mobile & desktop friendly)  
+- ✨ Easy to customize (name, text, colors)
 
 ---
 
 ## 🛠️ Tech Stack  
 - **HTML5**  
-- **CSS3** (with animations)  
-- **JavaScript**  
+- **CSS3** (animations & gradients)  
+- **JavaScript** (interactions)
 
 ---
-
-## 🎉 How to Use  
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/nikitayadav19/HappyBirthdayGF.git
