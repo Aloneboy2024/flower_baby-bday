@@ -19,7 +19,8 @@ body {
     position: relative;
 }
 
-.cursor {
+/* 🔧 FIXED HERE */
+.custom-cursor {
     width: 20px;
     height: 20px;
     background: pink;
